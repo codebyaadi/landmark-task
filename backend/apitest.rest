@@ -1,0 +1,16 @@
+### Server Testing
+
+# Test Server Root
+GET http://localhost:8080
+
+### Fetch the Data
+GET http://localhost:8080/fetchdata
+
+### Update the Data
+PUT http://localhost:8080/updateData/1
+Content-Type: application/json
+
+{
+  "propertyName": "enabled",
+  "value": true
+}

@@ -1,0 +1,10 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": ".js",
+    "execMap": {
+        "js": "node --trace-warnings"
+    },
+    "delay": 1000
+}

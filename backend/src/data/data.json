@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "type": "Filter System",
+    "properties": [
+      {
+        "name": "Filter Feed Pumps",
+        "pumps": {
+          "pump1enabled": false,
+          "pump2enabled": false,
+          "pump3enabled": false
+        }
+      },
+      {
+        "name": "Filter Tank Sensor",
+        "enabled": true
+      },
+      {
+        "name": "MVPS",
+        "mvps": {
+          "mvps1enabled": true,
+          "mvps2enabled": false,
+          "mvps3enabled": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Equilisation",
+    "properties": [
+      {
+        "name": "Sewage Pumps",
+        "pumps": {
+          "pump1enabled": false,
+          "pump2enabled": false,
+          "pump3enabled": false
+        }
+      },
+      {
+        "name": "Sewage Tank Sensor",
+        "enabled": false
+      },
+      {
+        "name": "MVPS",
+        "mvps": {
+          "mvps1enabled": true,
+          "mvps2enabled": false,
+          "mvps3enabled": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Aeration",
+    "properties": [
+      {
+        "name": "Blower Pumps",
+        "pumps": {
+          "pump1enabled": false,
+          "pump2enabled": false,
+          "pump3enabled": false
+        }
+      },
+      {
+        "name": "Aeration Tank Sensor",
+        "enabled": true
+      },
+      {
+        "name": "MVPS",
+        "mvps": {
+          "mvps1enabled": true,
+          "mvps2enabled": false,
+          "mvps3enabled": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Anoxic",
+    "properties": [
+      {
+        "name": "Anoxic Pumps",
+        "pumps": {
+          "pump1enabled": false,
+          "pump2enabled": true,
+          "pump3enabled": true
+        }
+      },
+      {
+        "name": "Anoxic Tank Sensor",
+        "enabled": false
+      },
+      {
+        "name": "MVPS",
+        "mvps": {
+          "mvps1enabled": false,
+          "mvps2enabled": false,
+          "mvps3enabled": false
+        }
+      }
+    ]
+  }
+]
